@@ -1,0 +1,4402 @@
+{
+  "intents": [
+    {
+      "intent": "Cancel",
+      "examples": [
+        {
+          "text": "cancel that"
+        },
+        {
+          "text": "cancel the request"
+        },
+        {
+          "text": "forget it"
+        },
+        {
+          "text": "i changed my mind"
+        },
+        {
+          "text": "i don't want a table anymore anymore"
+        },
+        {
+          "text": "never mind"
+        },
+        {
+          "text": "nevermind"
+        }
+      ],
+      "description": "Cancel the current request"
+    },
+    {
+      "intent": "Customer_Care_Appointments",
+      "examples": [
+        {
+          "text": "are you available on tuesday"
+        },
+        {
+          "text": "Can I book an in person session"
+        },
+        {
+          "text": "Can I book an in person session to learn how to use my new phone at the store near my house?"
+        },
+        {
+          "text": "can i book for tonight"
+        },
+        {
+          "text": "can i make an appointment"
+        },
+        {
+          "text": "Can someone support me at home?"
+        },
+        {
+          "text": "Can you explain me this in my house?"
+        },
+        {
+          "text": "can you make an appointment for me"
+        },
+        {
+          "text": "Could I speak to someone in the store next tuesday?"
+        },
+        {
+          "text": "Could you cancel the engagement I had tomorrow in my apartment?"
+        },
+        {
+          "text": "do you have availability next week"
+        },
+        {
+          "text": "How can I change the schedule?"
+        },
+        {
+          "text": "I am due at a store tomorrow at 2pm and wish to change my appointment please?"
+        },
+        {
+          "text": "i'd like to come in for an appointment"
+        },
+        {
+          "text": "i'd like to make an appointment"
+        },
+        {
+          "text": "I need to reschedule"
+        },
+        {
+          "text": "I prefer a face to face visit"
+        },
+        {
+          "text": "Is it possible to set a date?"
+        },
+        {
+          "text": "I want to cancel the appointment that I have with the store"
+        },
+        {
+          "text": "I want to talk in person with someone about my case"
+        },
+        {
+          "text": "I would like to discuss my situation face to face"
+        },
+        {
+          "text": "I would like to make an appointment to visit the nearest store to my location."
+        },
+        {
+          "text": "Make an appointment"
+        },
+        {
+          "text": "meet in store"
+        },
+        {
+          "text": "Set up an appt"
+        },
+        {
+          "text": "Store appointment"
+        },
+        {
+          "text": "Want to change my visit"
+        },
+        {
+          "text": "What time can I meet the staff?"
+        },
+        {
+          "text": "When can I meet with one of your employees at your store?"
+        }
+      ],
+      "description": "Schedule or manage an in-store appointment."
+    },
+    {
+      "intent": "Customer_Care_Authorized_User",
+      "examples": [
+        {
+          "text": "Add new user please"
+        },
+        {
+          "text": "Add user"
+        },
+        {
+          "text": "Can I add another person to have authority over my account?"
+        },
+        {
+          "text": "Can I add another user?"
+        },
+        {
+          "text": "Can you help me add another user to this account?"
+        },
+        {
+          "text": "Hi, how can I add a user so he can have all the access to my account?"
+        },
+        {
+          "text": "I'd like to add a person to my billing account"
+        },
+        {
+          "text": "I need to add someone to my account settings."
+        },
+        {
+          "text": "Is it possible to add a user that is allowed to do change everything but cannot anything on the financial part?"
+        },
+        {
+          "text": "I want to add a new user who can make changes to and use the account, while I retain sole ownership?"
+        },
+        {
+          "text": "I want to add a secondary user to my account"
+        },
+        {
+          "text": "I want to add my roommate to my plan, but keep sending the bill to me. can I do that here?"
+        },
+        {
+          "text": "I want to add my wife to the account"
+        },
+        {
+          "text": "I want to add someone who can access my account."
+        },
+        {
+          "text": "I want to authorize my spouse to be able to make changes in my account, but not correlated with any financial or ownership responsibilities."
+        },
+        {
+          "text": "I would like to add an authorized user to my account."
+        },
+        {
+          "text": "I would like to add my son to my account. I want him to be able to access the account and to make any changes he needs. can you help me with this?"
+        },
+        {
+          "text": "I would like to add my wife to my account with access and management privileges"
+        },
+        {
+          "text": "I would like to add someone to my account who will be authorized to access the account and make changes."
+        },
+        {
+          "text": "Please update my account to allow my spouse to access the account?"
+        }
+      ],
+      "description": "Change who has access to an account."
+    },
+    {
+      "intent": "Customer_Care_Cancel_Account",
+      "examples": [
+        {
+          "text": "Cancel account"
+        },
+        {
+          "text": "Cancel plan"
+        },
+        {
+          "text": "Cancel service please"
+        },
+        {
+          "text": "Can you please terminate this service?"
+        },
+        {
+          "text": "How do I cancel my phone service with your company?"
+        },
+        {
+          "text": "How do I close out my account?"
+        },
+        {
+          "text": "I am not very happy with services rendered on your part and want my account closed."
+        },
+        {
+          "text": "Id like to cancel or stop my service from my account"
+        },
+        {
+          "text": "I need help with cancellation"
+        },
+        {
+          "text": "I need to close my account at this time."
+        },
+        {
+          "text": "I want to cancel."
+        },
+        {
+          "text": "I want to cancel my service"
+        },
+        {
+          "text": "I want to disconnect my service"
+        },
+        {
+          "text": "I would like to cancel my service, can you do that for me?"
+        },
+        {
+          "text": "My phone is broken so I am wondering if I could cancel my contract"
+        },
+        {
+          "text": "Please close my data card account"
+        },
+        {
+          "text": "Put an end to my account."
+        },
+        {
+          "text": "Terminate service"
+        },
+        {
+          "text": "What do I have to do to stop all my services with you and close my account?"
+        },
+        {
+          "text": "What is the procedure on canceling my account?"
+        }
+      ],
+      "description": "Cancel or close an account."
+    },
+    {
+      "intent": "Customer_Care_Contact_Us",
+      "examples": [
+        {
+          "text": "Can I contact the business by post?"
+        },
+        {
+          "text": "Can I get some more information?"
+        },
+        {
+          "text": "Can I text you a question?"
+        },
+        {
+          "text": "Can you give me the number to the general manager?"
+        },
+        {
+          "text": "Can you please arrange for someone to call me!?"
+        },
+        {
+          "text": "Hi can you let me have the telephone number of my local store please?"
+        },
+        {
+          "text": "How can I contact your business?"
+        },
+        {
+          "text": "How do I best contact you when there has been a problem with my bill?"
+        },
+        {
+          "text": "Is there a phone number to your shop at fort worth tx?"
+        },
+        {
+          "text": "I want to know number to the store closest to me"
+        },
+        {
+          "text": "I would like to speak to customer service."
+        },
+        {
+          "text": "Need your phone number"
+        },
+        {
+          "text": "Tell me the number to your general department"
+        },
+        {
+          "text": "What is the closest store's phone number?"
+        },
+        {
+          "text": "What is the customer number?"
+        },
+        {
+          "text": "What is you email?"
+        },
+        {
+          "text": "What number should I call to order new line of service?"
+        },
+        {
+          "text": "Where can I reach the company personally?"
+        },
+        {
+          "text": "Which is the number of the main office here in los angeles?"
+        },
+        {
+          "text": "Who can I call?"
+        }
+      ],
+      "description": "Find basic contact information."
+    },
+    {
+      "intent": "Customer_Care_Employment_Inquiry",
+      "examples": [
+        {
+          "text": "Are there any job vacancies currently open at your company?"
+        },
+        {
+          "text": "Are you hiring at the moment?"
+        },
+        {
+          "text": "Can I join you guys?"
+        },
+        {
+          "text": "Halp me I need work"
+        },
+        {
+          "text": "Hire me please"
+        },
+        {
+          "text": "How would I go about joining your company?"
+        },
+        {
+          "text": "I am looking for a job and would like to know if you have anything available.."
+        },
+        {
+          "text": "I need to find some work"
+        },
+        {
+          "text": "Is there any current employment opportunities?"
+        },
+        {
+          "text": "Search job"
+        },
+        {
+          "text": "Well I m asking what level of the marketing position your company is looking for"
+        },
+        {
+          "text": "What are the job openings available with the company?"
+        },
+        {
+          "text": "What are the jobs you are hiring for?"
+        },
+        {
+          "text": "What employment opportunities are currently available?"
+        },
+        {
+          "text": "What is your jobs web site?"
+        },
+        {
+          "text": "What jobs are available that are hiring for now?"
+        },
+        {
+          "text": "What kind of jobs do you have?"
+        },
+        {
+          "text": "What positions do you have available?"
+        },
+        {
+          "text": "What's the process for job application?"
+        },
+        {
+          "text": "Where is your careers page?"
+        }
+      ],
+      "description": "Find job opportunities."
+    },
+    {
+      "intent": "Customer_Care_Loyalty_Status",
+      "examples": [
+        {
+          "text": "Can you tell me the status of my reward?"
+        },
+        {
+          "text": "Check rewards"
+        },
+        {
+          "text": "Customer loyalty status"
+        },
+        {
+          "text": "How can I see the points on my account?"
+        },
+        {
+          "text": "How do I verify my rewards balance?"
+        },
+        {
+          "text": "How many loyalty bonus points do I have?"
+        },
+        {
+          "text": "How many miles do I have?"
+        },
+        {
+          "text": "Please display my loyalty credits."
+        },
+        {
+          "text": "Please inform me of my current status?"
+        },
+        {
+          "text": "Points balance?"
+        },
+        {
+          "text": "Points statement?"
+        },
+        {
+          "text": "See available rewards?"
+        },
+        {
+          "text": "View my reward status."
+        },
+        {
+          "text": "What is my frequent buyer credit accumulation?"
+        },
+        {
+          "text": "What is my reward tier right now?"
+        },
+        {
+          "text": "What is the new point total?"
+        },
+        {
+          "text": "What's the number of mileage that I have on my account?"
+        },
+        {
+          "text": "Where do I learn my frequent purchaser tier?"
+        },
+        {
+          "text": "Where is my points shown at?"
+        },
+        {
+          "text": "You can show to me my points?"
+        }
+      ],
+      "description": "Inquire about customer loyalty program status."
+    },
+    {
+      "intent": "Customer_Care_Notification_Preferences",
+      "examples": [
+        {
+          "text": "Can I use another way of receiving alerts by editing existing one?"
+        },
+        {
+          "text": "Can you help me with changing delivery method?"
+        },
+        {
+          "text": "Can you send alert on my whatsapp?"
+        },
+        {
+          "text": "Can you send text notifications to additional mobile number?"
+        },
+        {
+          "text": "Change notifications to sms"
+        },
+        {
+          "text": "Changing my notification preferences"
+        },
+        {
+          "text": "How can I change delivery method?"
+        },
+        {
+          "text": "How can I edit delivery methods to new one?"
+        },
+        {
+          "text": "How can I modify notification alerts?"
+        },
+        {
+          "text": "How can I update my delivery methods?"
+        },
+        {
+          "text": "How do I change credit card transaction alerts?"
+        },
+        {
+          "text": "How to change my notification preferences?"
+        },
+        {
+          "text": "How to customize notifications that I am receiving?"
+        },
+        {
+          "text": "How to switch over from sms to email delivery alert?"
+        },
+        {
+          "text": "I need to change my current alert method to something else"
+        },
+        {
+          "text": "I request to get alerts via email"
+        },
+        {
+          "text": "I want my bank messages to notify me on emails as well"
+        },
+        {
+          "text": "I want to stop getting emails every time my card gets swiped"
+        },
+        {
+          "text": "Notifications are to be received on sms"
+        },
+        {
+          "text": "Tell me process to change alerts method"
+        }
+      ],
+      "description": "Manage user's notifications."
+    },
+    {
+      "intent": "Customer_Care_Open_Account",
+      "examples": [
+        {
+          "text": "Can someone new be able to login?"
+        },
+        {
+          "text": "Can you show me where to register for the program?"
+        },
+        {
+          "text": "Could you explain how to create a fresh account?"
+        },
+        {
+          "text": "Go joining here?"
+        },
+        {
+          "text": "How can I register over here?"
+        },
+        {
+          "text": "How do I become a customer?"
+        },
+        {
+          "text": "How do I login?"
+        },
+        {
+          "text": "I'd like to register"
+        },
+        {
+          "text": "Make account"
+        },
+        {
+          "text": "Please tell me how to register as one of your members."
+        },
+        {
+          "text": "What do I need to do to start an account with your company?"
+        },
+        {
+          "text": "What is required to get signed up here?"
+        },
+        {
+          "text": "What is the log in process for new users?"
+        },
+        {
+          "text": "What is the process to making an account?"
+        },
+        {
+          "text": "Where can I register?"
+        },
+        {
+          "text": "Where does a first time visitor sign up?"
+        },
+        {
+          "text": "Where do I find guidance on signing up?"
+        },
+        {
+          "text": "Where do I register for this?"
+        },
+        {
+          "text": "Where is the sign in page?"
+        },
+        {
+          "text": "Where to login for the first time?"
+        }
+      ],
+      "description": "Open an account."
+    },
+    {
+      "intent": "Customer_Care_Products_Offered",
+      "examples": [
+        {
+          "text": "Catalogue look"
+        },
+        {
+          "text": "I need information on one of your products"
+        },
+        {
+          "text": "Items available?"
+        },
+        {
+          "text": "Items currently sold"
+        },
+        {
+          "text": "I would like to know what I can buy"
+        },
+        {
+          "text": "Need to know what products you have"
+        },
+        {
+          "text": "New products"
+        },
+        {
+          "text": "Show me retirement products"
+        },
+        {
+          "text": "Show me some cars"
+        },
+        {
+          "text": "Tell me about shoes"
+        },
+        {
+          "text": "What are your business banking products?"
+        },
+        {
+          "text": "What does your business sell?"
+        },
+        {
+          "text": "What does your shop provide?"
+        },
+        {
+          "text": "What kind of products are available?"
+        },
+        {
+          "text": "What kinds of products do you sell?"
+        },
+        {
+          "text": "What potential products or services are available?"
+        },
+        {
+          "text": "What product do you recommend for a tech consultant?"
+        },
+        {
+          "text": "What products are offered in the company?"
+        },
+        {
+          "text": "What products can I get from your company?"
+        },
+        {
+          "text": "What products do you offer in the company?"
+        }
+      ],
+      "description": "Find products that are available for purchase."
+    },
+    {
+      "intent": "Customer_Care_Profile_Password",
+      "examples": [
+        {
+          "text": "Can you assist me with card code change?"
+        },
+        {
+          "text": "How do I find out the pin I need to use speak to someone on the phone?"
+        },
+        {
+          "text": "How do I get a new 4-digit code?"
+        },
+        {
+          "text": "How to renew pin of credit card?"
+        },
+        {
+          "text": "I don't remember my debit card pin. how do I recover it?"
+        },
+        {
+          "text": "I forgot my password"
+        },
+        {
+          "text": "I have a pw issue"
+        },
+        {
+          "text": "I have had the same pin used to contact telephone customer support for a long time and would like to change it. could you please help me to set this up."
+        },
+        {
+          "text": "I need to talk to customer service, but I've lost my password. can you help me?"
+        },
+        {
+          "text": "I want to create new code for my credit card"
+        },
+        {
+          "text": "Locate pin"
+        },
+        {
+          "text": "My password has stopped working"
+        },
+        {
+          "text": "Reset password"
+        },
+        {
+          "text": "Tell me the steps to change the pin on my credit card"
+        },
+        {
+          "text": "Wanna change pass"
+        },
+        {
+          "text": "What are the rules for a valid password?"
+        },
+        {
+          "text": "What is the pin that is used to speak to a representative?"
+        },
+        {
+          "text": "What is the policy for revising my current pin number?"
+        },
+        {
+          "text": "What password do I use when chatting with an agent?"
+        },
+        {
+          "text": "Where can I find information about changing my card pin?"
+        }
+      ],
+      "description": "Retrieve or change user's password."
+    },
+    {
+      "intent": "Customer_Care_Profile_Security_Questions",
+      "examples": [
+        {
+          "text": "Can I change the saved security questions I use when accessing my account via the phone?"
+        },
+        {
+          "text": "Can I reset my online security answer?"
+        },
+        {
+          "text": "Can you reset my security question?"
+        },
+        {
+          "text": "Help me with security questions"
+        },
+        {
+          "text": "Hi I want to know if I can change my security settings for talking to customer services over the phone?"
+        },
+        {
+          "text": "How can I set up a phone security question?"
+        },
+        {
+          "text": "I have a feeling that default security questions for accessing my account are too generic and weak. is there a way to have them changed?"
+        },
+        {
+          "text": "I have forgotten my phone security questions"
+        },
+        {
+          "text": "I need to change my questions to get in"
+        },
+        {
+          "text": "Is it possible to change the security questions I use to access my account when I call you?"
+        },
+        {
+          "text": "It has been a while since I updated my online security questions. can you give me directions on how I can edit my account to create better, more recent and more secure questions?"
+        },
+        {
+          "text": "I want to know my security question when I'm dealing with customer service representative."
+        },
+        {
+          "text": "I would like to change the security question used to access my account. could you please explain the procedure."
+        },
+        {
+          "text": "My email may have been hacked so I'm changing all my passwords and security questions can you change the ones I use for talking to customer support?"
+        },
+        {
+          "text": "Security question answers"
+        },
+        {
+          "text": "Security verification question"
+        },
+        {
+          "text": "Update security questions"
+        },
+        {
+          "text": "What are my profile questions?"
+        },
+        {
+          "text": "When I talk to a customer rep, what security questions can I use?"
+        },
+        {
+          "text": "Why do I need to answer security questions when I speak to a representative on the phone?"
+        }
+      ],
+      "description": "Review or change user's security questions."
+    },
+    {
+      "intent": "Customer_Care_Program_Inquiry",
+      "examples": [
+        {
+          "text": "Are past purchases rewarded?"
+        },
+        {
+          "text": "Are pre-purchased items eligible for rewards?"
+        },
+        {
+          "text": "Can I get points for stuff I bought?"
+        },
+        {
+          "text": "Can I get points on transactions I've already made?"
+        },
+        {
+          "text": "Can I receive loyalty credit for previous acquisitions?"
+        },
+        {
+          "text": "Do I get anything for buying a lot?"
+        },
+        {
+          "text": "Do you have a points program?"
+        },
+        {
+          "text": "Frequent purchaser benefits?"
+        },
+        {
+          "text": "If I purchase frequently will I get benefits?"
+        },
+        {
+          "text": "Is it possible to obtain points for buys I have made in the past?"
+        },
+        {
+          "text": "Is there a bonus group offered?"
+        },
+        {
+          "text": "Is there a customer loyalty program of some sort available at the moment?"
+        },
+        {
+          "text": "Is there a program that rewards me for my use?"
+        },
+        {
+          "text": "Is there a rewards system for customers?"
+        },
+        {
+          "text": "Loyalty rewards program?"
+        },
+        {
+          "text": "Receive credits buys?"
+        },
+        {
+          "text": "Reward points backdated?"
+        },
+        {
+          "text": "Reward scheme?"
+        },
+        {
+          "text": "Rewards frequent purchasing?"
+        },
+        {
+          "text": "What about your loyalty program?"
+        }
+      ],
+      "description": "Learn about customer loyalty programs."
+    },
+    {
+      "intent": "Customer_Care_Redeem_Points",
+      "examples": [
+        {
+          "text": "Apply loyalty credit"
+        },
+        {
+          "text": "Cash mileage"
+        },
+        {
+          "text": "How can I exchange my points for something?"
+        },
+        {
+          "text": "How can I use my miles?"
+        },
+        {
+          "text": "How do I earn rewards for my points balance?"
+        },
+        {
+          "text": "How do I redeem bonus points?"
+        },
+        {
+          "text": "I have outstanding credit,please apply the loyalty points"
+        },
+        {
+          "text": "I want a reward by using my points."
+        },
+        {
+          "text": "I want rewards with my points"
+        },
+        {
+          "text": "I want to pay points for an incentive"
+        },
+        {
+          "text": "I wish to go about caching in my points for a purchase,can you show me how?"
+        },
+        {
+          "text": "I would like to know how to get rewards by using my credit card loyalty"
+        },
+        {
+          "text": "May I gain rewards from the current loyalty points?"
+        },
+        {
+          "text": "Pay balance with points"
+        },
+        {
+          "text": "Redeem reward points?"
+        },
+        {
+          "text": "Shop bonus points?"
+        },
+        {
+          "text": "Use mileage"
+        },
+        {
+          "text": "Use rewards towards my bill"
+        },
+        {
+          "text": "What is the procedure for redeeming my mileage?"
+        },
+        {
+          "text": "What is the process of using my credits?"
+        }
+      ],
+      "description": "Redeem points to make a purchase."
+    },
+    {
+      "intent": "Customer_Care_Report_Fraudulent_Use",
+      "examples": [
+        {
+          "text": "Frauded login"
+        },
+        {
+          "text": "How can I report non authorized user?"
+        },
+        {
+          "text": "How can I tell you if there is a suspect in the record?"
+        },
+        {
+          "text": "How do I notify you that my account has been accessed without my permission?"
+        },
+        {
+          "text": "How do I respond to texts that I do not think are true?"
+        },
+        {
+          "text": "How to inform on dubious proceedings?"
+        },
+        {
+          "text": "How to register fraud for savings or checking account?"
+        },
+        {
+          "text": "How would I go about telling someone of unwanted usage of my account?"
+        },
+        {
+          "text": "I'm worried that my savings account might have been compromised."
+        },
+        {
+          "text": "Is there a way to alert you to a suspicious login?"
+        },
+        {
+          "text": "Is there contact information to report unauthorized logins?"
+        },
+        {
+          "text": "I want to make you aware of a case of fake login"
+        },
+        {
+          "text": "My account is been misused. can you assist me with this"
+        },
+        {
+          "text": "Someone has opened an account in my name"
+        },
+        {
+          "text": "Strange activity"
+        },
+        {
+          "text": "Want to report data breach"
+        },
+        {
+          "text": "What should I do to report a scam? what can I do to report unauthorized log in?"
+        },
+        {
+          "text": "What should I do with an unknown visitor?"
+        },
+        {
+          "text": "Where to inform on a skeptical profile login?"
+        },
+        {
+          "text": "Who do I tell about suspect activity?"
+        }
+      ],
+      "description": "Report the fraudulent use of an account."
+    },
+    {
+      "intent": "Customer_Care_Store_Hours",
+      "examples": [
+        {
+          "text": "are stores open on sunday"
+        },
+        {
+          "text": "Are the stores open early?"
+        },
+        {
+          "text": "Are you closed new Year's eve"
+        },
+        {
+          "text": "Are you closing early today"
+        },
+        {
+          "text": "Are you open during thanksgiving?"
+        },
+        {
+          "text": "Are you open on bank holidays?"
+        },
+        {
+          "text": "Are you open on Sunday"
+        },
+        {
+          "text": "Are you open on sundays, and if so what are the hours?"
+        },
+        {
+          "text": "At what hour can I swing by?"
+        },
+        {
+          "text": "Can you tell me how late the stores are open till?"
+        },
+        {
+          "text": "Does the store in the city center opens till 8pm on weekends?"
+        },
+        {
+          "text": "Hours of operation"
+        },
+        {
+          "text": "How early do you open?"
+        },
+        {
+          "text": "how early do you open on Saturdays"
+        },
+        {
+          "text": "how late are you open"
+        },
+        {
+          "text": "how late are you open tonight"
+        },
+        {
+          "text": "how late are you there"
+        },
+        {
+          "text": "how late y'all stay up till"
+        },
+        {
+          "text": "How long are you open?"
+        },
+        {
+          "text": "Is the branch open now?"
+        },
+        {
+          "text": "open hours store"
+        },
+        {
+          "text": "store hours"
+        },
+        {
+          "text": "store hrs"
+        },
+        {
+          "text": "store open"
+        },
+        {
+          "text": "store open hours?"
+        },
+        {
+          "text": "store open now"
+        },
+        {
+          "text": "What are the business hours of the store nearest to me?"
+        },
+        {
+          "text": "What are the hours of operation?"
+        },
+        {
+          "text": "What are the saturday opening times for the local store?"
+        },
+        {
+          "text": "What are ur opening hours?"
+        },
+        {
+          "text": "what are your hours"
+        },
+        {
+          "text": "What are your hous?"
+        },
+        {
+          "text": "What is the opening time for the washington store?"
+        },
+        {
+          "text": "What time are you closing today?"
+        },
+        {
+          "text": "What time does the central manchester store shut on a saturday?"
+        },
+        {
+          "text": "What time do stores close?"
+        },
+        {
+          "text": "What time do you close"
+        },
+        {
+          "text": "what time do you close on Sunday"
+        },
+        {
+          "text": "What time do you close today"
+        },
+        {
+          "text": "What time do you open on Saturdays"
+        },
+        {
+          "text": "What time is your store open on saturday?"
+        },
+        {
+          "text": "when can i visit your store"
+        },
+        {
+          "text": "when does the store close"
+        },
+        {
+          "text": "when do you close"
+        },
+        {
+          "text": "when do your stores open"
+        },
+        {
+          "text": "will you be open Memorial day"
+        },
+        {
+          "text": "will you open for christmas"
+        },
+        {
+          "text": "will you open on christmas"
+        }
+      ],
+      "description": "Find business hours."
+    },
+    {
+      "intent": "Customer_Care_Store_Location",
+      "examples": [
+        {
+          "text": "can you give me directions"
+        },
+        {
+          "text": "Can you help me find locations in the general area of downtown baltimore?"
+        },
+        {
+          "text": "Can you tell me about physical locations you have in new jersey?"
+        },
+        {
+          "text": "Do you have an office in denver?"
+        },
+        {
+          "text": "Find store"
+        },
+        {
+          "text": "give me directions"
+        },
+        {
+          "text": "Go to your company"
+        },
+        {
+          "text": "how can i get to you from grand central"
+        },
+        {
+          "text": "how do i find you"
+        },
+        {
+          "text": "how do i get to your business"
+        },
+        {
+          "text": "how do i get to your place"
+        },
+        {
+          "text": "I'd like to go to a store"
+        },
+        {
+          "text": "I need help with find a store"
+        },
+        {
+          "text": "Is there any shopping mall around me?"
+        },
+        {
+          "text": "I want to know about a store"
+        },
+        {
+          "text": "location please"
+        },
+        {
+          "text": "Looking for a location"
+        },
+        {
+          "text": "please suggest route from times square"
+        },
+        {
+          "text": "Restuarants nearby please"
+        },
+        {
+          "text": "Show me nearest service center"
+        },
+        {
+          "text": "what is the address"
+        },
+        {
+          "text": "What is the closest pharmacy?"
+        },
+        {
+          "text": "What is the closest store to my address?"
+        },
+        {
+          "text": "What is the nearest branch?"
+        },
+        {
+          "text": "What is the store near my zip code?"
+        },
+        {
+          "text": "what's your location"
+        },
+        {
+          "text": "Where are the store locations closest to davis city hall?"
+        },
+        {
+          "text": "where are you"
+        },
+        {
+          "text": "where are you located"
+        },
+        {
+          "text": "Where are you located?"
+        },
+        {
+          "text": "Where is?"
+        },
+        {
+          "text": "Where is your office?"
+        },
+        {
+          "text": "which cross streets are you on"
+        }
+      ],
+      "description": "Locate a physical store location or an address."
+    },
+    {
+      "intent": "Customer_Care_Transfer_Points",
+      "examples": [
+        {
+          "text": "Am I able to move points?"
+        },
+        {
+          "text": "Can I carry over my points?"
+        },
+        {
+          "text": "Can I give my points for my friend?"
+        },
+        {
+          "text": "Can I have my points transferred to a different account please?"
+        },
+        {
+          "text": "Can I transfer my minutes to my wife's phone?"
+        },
+        {
+          "text": "Can I transfer to another account my points?"
+        },
+        {
+          "text": "Can you carry my points over to other account?"
+        },
+        {
+          "text": "Can you tell me how I can place my prior account points into my new account?"
+        },
+        {
+          "text": "Could you move my points total please?"
+        },
+        {
+          "text": "How can I move points from one account to another?"
+        },
+        {
+          "text": "How do old account points transfer to new account?"
+        },
+        {
+          "text": "How to transfer points to a new account please?"
+        },
+        {
+          "text": "I'd like to transfer credits to a new account"
+        },
+        {
+          "text": "I have a new account and want my points moved there"
+        },
+        {
+          "text": "I need to share points between two accounts"
+        },
+        {
+          "text": "Is it possible to send my credits to a buddy?"
+        },
+        {
+          "text": "Is there any way I can move points balance to a new account?"
+        },
+        {
+          "text": "I would like to send my credits to a relative"
+        },
+        {
+          "text": "Transfer mileage"
+        },
+        {
+          "text": "What can be done to to send points?"
+        }
+      ],
+      "description": "Transfer points between accounts."
+    },
+    {
+      "intent": "Customer_Care_User_Profile",
+      "examples": [
+        {
+          "text": "Can I set another email address for my account?"
+        },
+        {
+          "text": "Can you help me change the contact email for my account?"
+        },
+        {
+          "text": "Can you please make changes in my account regarding my phone contact information?"
+        },
+        {
+          "text": "Change mailing address"
+        },
+        {
+          "text": "Could you change the phone number in my profile?"
+        },
+        {
+          "text": "Delete a number on my account"
+        },
+        {
+          "text": "I got a new number, help me edit my account"
+        },
+        {
+          "text": "I have a new email account and would like to change my primary contact email. how do I do this?"
+        },
+        {
+          "text": "I moved and have a new landline number. where do I go to update my contact information?"
+        },
+        {
+          "text": "I'm trying to change the email address associated with my account but it keeps giving me an error message can I do it with you?"
+        },
+        {
+          "text": "I need to change my contact information."
+        },
+        {
+          "text": "I need to update the email on my account"
+        },
+        {
+          "text": "I need to update the phone number that you have listed as my contact phone number."
+        },
+        {
+          "text": "It seems like you have my old contact phone number on file, so I would like to have it updated, with your help."
+        },
+        {
+          "text": "I want to change my home address in payment associated with my account, what steps"
+        },
+        {
+          "text": "I will be moving next month. when do I need to give you my new address?"
+        },
+        {
+          "text": "I wish to amend my email address please"
+        },
+        {
+          "text": "I would like to change my contact information. can this be done online or do I have to come in?"
+        },
+        {
+          "text": "I would like to update the email for my online account"
+        },
+        {
+          "text": "There is a typo in my listed email address, I need to fix it"
+        }
+      ],
+      "description": "Change user's information on their account."
+    },
+    {
+      "intent": "eCommerce_Balance_Inquiry",
+      "examples": [
+        {
+          "text": "Can I check my data balance?"
+        },
+        {
+          "text": "Can I see my account balance?"
+        },
+        {
+          "text": "Can you assist me to check my balance?"
+        },
+        {
+          "text": "Can you help me check my balance?"
+        },
+        {
+          "text": "Can you tell me how much my bill is for this month, I think it is going to be expensive?"
+        },
+        {
+          "text": "Can you tell me my current balance please?"
+        },
+        {
+          "text": "Current bill amount"
+        },
+        {
+          "text": "Give me the amount due"
+        },
+        {
+          "text": "Hello. I want to know how much I have to pay this month"
+        },
+        {
+          "text": "How much is my next payment?"
+        },
+        {
+          "text": "I'd like to find out how much I owe"
+        },
+        {
+          "text": "I want to ask about my account balance"
+        },
+        {
+          "text": "I would like to check how much my bill is please thank you"
+        },
+        {
+          "text": "Show balance"
+        },
+        {
+          "text": "What is my current outstanding?"
+        },
+        {
+          "text": "What is my full balance?"
+        },
+        {
+          "text": "What is the remaining balance?"
+        },
+        {
+          "text": "What's my balance?"
+        },
+        {
+          "text": "What was my account balance as of june 1st, 2016?"
+        },
+        {
+          "text": "Yes, I want to check my balance"
+        }
+      ],
+      "description": "Inquire about an account balance."
+    },
+    {
+      "intent": "eCommerce_Cancel_Product_Order",
+      "examples": [
+        {
+          "text": "Cancel existing order"
+        },
+        {
+          "text": "Cancel order placed earlier"
+        },
+        {
+          "text": "Cancel order submitted today"
+        },
+        {
+          "text": "Can you help me to cancel my last order?"
+        },
+        {
+          "text": "Can you help me to cancel the order which I just placed a few minutes ago?"
+        },
+        {
+          "text": "How can I cancel my order of your extended data service?"
+        },
+        {
+          "text": "How can I cancel my previous order?"
+        },
+        {
+          "text": "I just placed and order, but I need to cancel it."
+        },
+        {
+          "text": "I made an order yesterday, can I cancel it?"
+        },
+        {
+          "text": "I need to cancel an order that I placed."
+        },
+        {
+          "text": "I need to cancel the most recent order. how do I do this?"
+        },
+        {
+          "text": "I need to speak to someone about an order I made not long ago, I need to cancel it please"
+        },
+        {
+          "text": "I recently placed an order for a new phone online. I've changed my mind. can you please cancel my order?"
+        },
+        {
+          "text": "I've bought an keyboard and id like to cancel it"
+        },
+        {
+          "text": "I want to cancel the new device switch order I placed"
+        },
+        {
+          "text": "I want to cancel the order"
+        },
+        {
+          "text": "I wish to cancel my last order."
+        },
+        {
+          "text": "I wish to cancel my recent order"
+        },
+        {
+          "text": "Please cancel the order I've made this morning"
+        },
+        {
+          "text": "Please cancel the order that was recently placed."
+        }
+      ],
+      "description": "Cancel an order."
+    },
+    {
+      "intent": "eCommerce_Create_Product_Order",
+      "examples": [
+        {
+          "text": "Buy accessories"
+        },
+        {
+          "text": "Can I order some products?"
+        },
+        {
+          "text": "Can you tell me which phones are on sale this week? I want to buy a new phone?"
+        },
+        {
+          "text": "Help me to create a new order"
+        },
+        {
+          "text": "How do I go about placing an order with you?"
+        },
+        {
+          "text": "I am ready to order now."
+        },
+        {
+          "text": "I need a new cell phone"
+        },
+        {
+          "text": "I need jeans"
+        },
+        {
+          "text": "I need some assistance in purchasing a pre paid mobile phone as well as a sim"
+        },
+        {
+          "text": "I want to reorder"
+        },
+        {
+          "text": "I would like a sim"
+        },
+        {
+          "text": "I would like to purchase a new device for cash"
+        },
+        {
+          "text": "Make the order again"
+        },
+        {
+          "text": "Ok order this for me"
+        },
+        {
+          "text": "Order and payment for device"
+        },
+        {
+          "text": "Place order for device"
+        },
+        {
+          "text": "Purchase something new"
+        },
+        {
+          "text": "What are the methods to place an order?"
+        },
+        {
+          "text": "Where I can order?"
+        },
+        {
+          "text": "Where to buy a camera?"
+        }
+      ],
+      "description": "Place an order."
+    },
+    {
+      "intent": "eCommerce_Defer_Payment",
+      "examples": [
+        {
+          "text": "Bill extension"
+        },
+        {
+          "text": "Can I ask for a payment deferment?"
+        },
+        {
+          "text": "Can I defer a bill please?"
+        },
+        {
+          "text": "Can I defer the balance on my account?"
+        },
+        {
+          "text": "Can I delay a payment for a couple of days?"
+        },
+        {
+          "text": "Can I pay my bill later than due date?"
+        },
+        {
+          "text": "Can you get payment extension?"
+        },
+        {
+          "text": "Could the due date for my next bill be delayed? I have changed jobs and my old company did not yet pay me?"
+        },
+        {
+          "text": "Hi. my payment due date is't convenient for me. could I change it?"
+        },
+        {
+          "text": "How can avoid late fees?"
+        },
+        {
+          "text": "How can I extent the due date of my payments?"
+        },
+        {
+          "text": "How can I postpone making a payment?"
+        },
+        {
+          "text": "I am not able to pay my bill this week. can you please extend the bill due date by 1 week"
+        },
+        {
+          "text": "I can't pay my bill on time, can I pay it the week after it's due?"
+        },
+        {
+          "text": "I'd like to delay this month's payment by a week please."
+        },
+        {
+          "text": "I need to defer my bill payment by 7 days."
+        },
+        {
+          "text": "Is there any way that I can defer a payment for my phone? I will be on vacation and won't be able to do it from overseas?"
+        },
+        {
+          "text": "I would like to extend my payment due date"
+        },
+        {
+          "text": "Payment after due date"
+        },
+        {
+          "text": "Please keep power on I can pay you later"
+        }
+      ],
+      "description": "Delay the payment due date for a current bill."
+    },
+    {
+      "intent": "eCommerce_Dispute",
+      "examples": [
+        {
+          "text": "Can you change my bill?"
+        },
+        {
+          "text": "Can you help me understand my bill?"
+        },
+        {
+          "text": "Explain phone bill"
+        },
+        {
+          "text": "How to get a bill corrected?"
+        },
+        {
+          "text": "I'd like credit for interrupted service."
+        },
+        {
+          "text": "I don't agree with the charge"
+        },
+        {
+          "text": "I'm not at all pleased with your data speed and I don't feel like I'm getting my money's worth. so I'd like an adjustment"
+        },
+        {
+          "text": "I need to readjust my credit card, I am getting endless late fee's despite paying on the due date, I want answers."
+        },
+        {
+          "text": "I need to request an adjustment on my billing statement."
+        },
+        {
+          "text": "I noticed on my bill that I get charged every month for an extra line. I do not have an extra line. can you please check?"
+        },
+        {
+          "text": "Need explanation for the settlement of loan against credit card"
+        },
+        {
+          "text": "Please check the output for my last credit card transaction"
+        },
+        {
+          "text": "What are the items on my bill?"
+        },
+        {
+          "text": "What do I do if my bill is wrong?"
+        },
+        {
+          "text": "What is the $5.00 charge related to?"
+        },
+        {
+          "text": "What's a 'restoral fee' and why did you charge me $50.00 for it?"
+        },
+        {
+          "text": "Why is there an increase in this months bill from last month?"
+        },
+        {
+          "text": "Why late fee?"
+        },
+        {
+          "text": "Why was I charged an administration fee?"
+        },
+        {
+          "text": "Why was I charged multiple times for the same purchase?"
+        }
+      ],
+      "description": "Dispute an issue about a bill."
+    },
+    {
+      "intent": "eCommerce_Make_A_Payment",
+      "examples": [
+        {
+          "text": "Bugger me I wanna pay me bill"
+        },
+        {
+          "text": "Can I do a bill payment?"
+        },
+        {
+          "text": "Can I pay my bill?"
+        },
+        {
+          "text": "Can you assist me with paying my bill?"
+        },
+        {
+          "text": "Handle payment?"
+        },
+        {
+          "text": "How can I pay off my balance?"
+        },
+        {
+          "text": "I also want to make a payment when I have you here on chat"
+        },
+        {
+          "text": "I'd like to pay"
+        },
+        {
+          "text": "I need to pay the cost of my service plan"
+        },
+        {
+          "text": "I need to schedule a payment"
+        },
+        {
+          "text": "I think I'm gonna pay the bill"
+        },
+        {
+          "text": "I want to make a one time payment and enter my debit card payment information"
+        },
+        {
+          "text": "I want to make payment"
+        },
+        {
+          "text": "I want to pay my bill with a credit card"
+        },
+        {
+          "text": "I would like to ask a question about making a payment."
+        },
+        {
+          "text": "Pay my account"
+        },
+        {
+          "text": "Request bill pay"
+        },
+        {
+          "text": "Right now, I am in a different city and how to make cash payment as today is the due date"
+        },
+        {
+          "text": "Schedule payment"
+        },
+        {
+          "text": "Want to pay"
+        }
+      ],
+      "description": "Make a payment."
+    },
+    {
+      "intent": "eCommerce_Method_Of_Payment",
+      "examples": [
+        {
+          "text": "Change payment setup"
+        },
+        {
+          "text": "Direct transfer"
+        },
+        {
+          "text": "Do you accept bank wires?"
+        },
+        {
+          "text": "Do you accept visa?"
+        },
+        {
+          "text": "Do you take discover?"
+        },
+        {
+          "text": "Hi, can I pay for the service by paypal?"
+        },
+        {
+          "text": "How can I pay you?"
+        },
+        {
+          "text": "I need to add a new payment card"
+        },
+        {
+          "text": "I need to change my credit card"
+        },
+        {
+          "text": "Is there a chance I can pay with cash upon delivery?"
+        },
+        {
+          "text": "I want to change my payment preferences."
+        },
+        {
+          "text": "I want to switch what card my payment is taken from"
+        },
+        {
+          "text": "Morning, can you tell me by what methods I can settle my monthly bill?"
+        },
+        {
+          "text": "Pay by email"
+        },
+        {
+          "text": "Till now, I was paying in cash. may I pay the future payments through credit card?"
+        },
+        {
+          "text": "Update card"
+        },
+        {
+          "text": "What are the payment methods?"
+        },
+        {
+          "text": "What are your payment options?"
+        },
+        {
+          "text": "What did I pay for credit card?"
+        },
+        {
+          "text": "What kind of payments are accepted?"
+        }
+      ],
+      "description": "Manage the method of payment for a bill."
+    },
+    {
+      "intent": "eCommerce_Modify_Product_Order",
+      "examples": [
+        {
+          "text": "Can I change my order for a new device?"
+        },
+        {
+          "text": "Can I change the number on the order from three to four?"
+        },
+        {
+          "text": "Can you change the order I just placed?"
+        },
+        {
+          "text": "Can you help me modify the order that I just placed?"
+        },
+        {
+          "text": "Changed mind on last order"
+        },
+        {
+          "text": "Hey I would like to change the delivery date on my order please"
+        },
+        {
+          "text": "How can I chance my order?"
+        },
+        {
+          "text": "How do I change the phone that I ordered?"
+        },
+        {
+          "text": "I'd like to change some things with my most recent order"
+        },
+        {
+          "text": "I need to amend the order I placed yesterday please"
+        },
+        {
+          "text": "I need to change my order help please"
+        },
+        {
+          "text": "I need to make a change to my current order"
+        },
+        {
+          "text": "I ordered a new phone today but forgot to add an extra charger. can you please add it to my original order."
+        },
+        {
+          "text": "Is there a way to modify a previous order?"
+        },
+        {
+          "text": "I want to change my last order but I don't want to cancel it. can I do that?"
+        },
+        {
+          "text": "I want to edit an order"
+        },
+        {
+          "text": "I want to modify an order made"
+        },
+        {
+          "text": "I want to update my order."
+        },
+        {
+          "text": "I would like to add additional items to an order."
+        },
+        {
+          "text": "I would like to modify an order I made."
+        }
+      ],
+      "description": "Change or modify a placed order."
+    },
+    {
+      "intent": "eCommerce_Past_Payment_Inquiry",
+      "examples": [
+        {
+          "text": "Can I get a payment record for these whole year?"
+        },
+        {
+          "text": "Can you tell me if I paid my bill with my credit card?"
+        },
+        {
+          "text": "Does the payment for july is already done?"
+        },
+        {
+          "text": "Have I paid my bill?"
+        },
+        {
+          "text": "How can I know my payment went through?"
+        },
+        {
+          "text": "How do I review my payments?"
+        },
+        {
+          "text": "I already pay that in this month"
+        },
+        {
+          "text": "I can't find my payment"
+        },
+        {
+          "text": "I'd like to check the status of a bill I paid as it has not been credited to my account."
+        },
+        {
+          "text": "Indicate payment for the purchase of my device six months ago"
+        },
+        {
+          "text": "I need some details about my last month payment."
+        },
+        {
+          "text": "I paid my bill but got sent an overdue notice, my bank statement shows it went through so why does it say its overdue?"
+        },
+        {
+          "text": "I want payment information by a device two months ago"
+        },
+        {
+          "text": "I want to make sure that a payment was credited to my account. can you verify that?"
+        },
+        {
+          "text": "My bill says I didn't make a payment last month, but I did, can you look into this please?"
+        },
+        {
+          "text": "Past payment"
+        },
+        {
+          "text": "Verify payment"
+        },
+        {
+          "text": "Wanted to make sure my payment was received."
+        },
+        {
+          "text": "What is the confirmation number for the payment I made on july 4, 2016?"
+        },
+        {
+          "text": "When was this specific payment made?"
+        }
+      ],
+      "description": "Inquire about payments made in the past."
+    },
+    {
+      "intent": "eCommerce_Payment_Due_Date",
+      "examples": [
+        {
+          "text": "Can you remind me when is my payment due day?"
+        },
+        {
+          "text": "Could you pls advise on due date of my bill?"
+        },
+        {
+          "text": "Date of payment"
+        },
+        {
+          "text": "How can I check when my monthly payment is due?"
+        },
+        {
+          "text": "I need to know the due date for my phone bill"
+        },
+        {
+          "text": "Is there any grace period with due dates?"
+        },
+        {
+          "text": "I wonder what is my payment date?"
+        },
+        {
+          "text": "I would like to know the due date of my bill"
+        },
+        {
+          "text": "Next billing due"
+        },
+        {
+          "text": "On what day is my cellphone payment due?"
+        },
+        {
+          "text": "Statement due"
+        },
+        {
+          "text": "What day do I have to make my payment by?"
+        },
+        {
+          "text": "When due?"
+        },
+        {
+          "text": "When is my current amount due?"
+        },
+        {
+          "text": "When is my current bill pay date?"
+        },
+        {
+          "text": "When is my payment due by?"
+        },
+        {
+          "text": "When is the day for paying the bils?"
+        },
+        {
+          "text": "When is the next payment date?"
+        },
+        {
+          "text": "When will be my next day of payment?"
+        },
+        {
+          "text": "Which is the deadline for the settlement of my bills?"
+        }
+      ],
+      "description": "Inquire about when the next payment is due."
+    },
+    {
+      "intent": "eCommerce_Product_Order_Status",
+      "examples": [
+        {
+          "text": "Can I check on my order?"
+        },
+        {
+          "text": "Can you track the whereabouts of this sim I ordered?"
+        },
+        {
+          "text": "Expected to ship"
+        },
+        {
+          "text": "Has my new phone shipped yet?"
+        },
+        {
+          "text": "Has the order been dispatched yet?"
+        },
+        {
+          "text": "How do I track my shipment?"
+        },
+        {
+          "text": "How soon can we expect the new shipment of iphone 7 that was pre ordered last week?"
+        },
+        {
+          "text": "I purchased an item the other day and still haven't received an update about it, have you shipped it yet?"
+        },
+        {
+          "text": "I want a status report on an order I made last week."
+        },
+        {
+          "text": "I was just wondering if I could check the status of an order I made."
+        },
+        {
+          "text": "I would like to check the status of an order I placed recently."
+        },
+        {
+          "text": "Order progress"
+        },
+        {
+          "text": "Please, can you tell me about the status of an orden I made?"
+        },
+        {
+          "text": "Shipping status"
+        },
+        {
+          "text": "Tracking number"
+        },
+        {
+          "text": "What state you are in with my current order?"
+        },
+        {
+          "text": "When is my new phone supposed to arrive?"
+        },
+        {
+          "text": "Where is my order?"
+        },
+        {
+          "text": "Yes it was attempted for delivery but it says the parcel was refused though we were in the flat"
+        },
+        {
+          "text": "Yes I want to track my order"
+        }
+      ],
+      "description": "Request status of an order that has been placed."
+    },
+    {
+      "intent": "eCommerce_Recurring_Payment_Autopay",
+      "examples": [
+        {
+          "text": "Auto bill pay"
+        },
+        {
+          "text": "Automatically pay bills"
+        },
+        {
+          "text": "Can I change my plan to auto pay?"
+        },
+        {
+          "text": "Can I make a payment now and have it be recurring?"
+        },
+        {
+          "text": "Can you help me cancel the autopay?"
+        },
+        {
+          "text": "Do you offer automatic payment set-up?"
+        },
+        {
+          "text": "Hi, how can I set up the automated monthly payments?"
+        },
+        {
+          "text": "How can I change my recurring payment?"
+        },
+        {
+          "text": "How do I set up direct debit?"
+        },
+        {
+          "text": "How do I sign up for auto on line bill payment?"
+        },
+        {
+          "text": "How do I sign up for autopay?"
+        },
+        {
+          "text": "How do I turn auto pay on?"
+        },
+        {
+          "text": "How to cancel my card automated payments?"
+        },
+        {
+          "text": "I'd like to setup autopay please."
+        },
+        {
+          "text": "I need to make changes to my automatic payments for my account."
+        },
+        {
+          "text": "I want to activate auto payments"
+        },
+        {
+          "text": "I want to know how to set up automatic payments"
+        },
+        {
+          "text": "I would like to change the account my automatic payment is drawn from please?"
+        },
+        {
+          "text": "I would like to set up monthly payments"
+        },
+        {
+          "text": "Manage autopay"
+        }
+      ],
+      "description": "Start making automatic recurring payments."
+    },
+    {
+      "intent": "eCommerce_Refund_Payment",
+      "examples": [
+        {
+          "text": "Arrange refund"
+        },
+        {
+          "text": "Can I get a refund on the activation fee?"
+        },
+        {
+          "text": "Can I get a refund when my internet was out for 6 hours?"
+        },
+        {
+          "text": "Can I get my last month refunded due to the contract cancelation?"
+        },
+        {
+          "text": "Can I just have a full refund?"
+        },
+        {
+          "text": "Can you refund all payments?"
+        },
+        {
+          "text": "Do I get a refund if I paid too much?"
+        },
+        {
+          "text": "I am unfairly charged. am I going to be refunded?"
+        },
+        {
+          "text": "If I cancel some services which have been prepaid, can I receive a refund for part of what has already been paid? what is your refund policy?"
+        },
+        {
+          "text": "I paid my bill twice last month. can you refund my last payment?"
+        },
+        {
+          "text": "Is it possible to refund the latest payment that I made?"
+        },
+        {
+          "text": "I want a refund on the previous purchase I made."
+        },
+        {
+          "text": "I was charged for services that I don't subscribe to. how can I go about getting a refund"
+        },
+        {
+          "text": "I was overcharged on my last bill, I need that refunded."
+        },
+        {
+          "text": "I would like a refund for the service outage last month please."
+        },
+        {
+          "text": "My credit card was double charged for my last bill. how do I get the extra charge refunded to it?"
+        },
+        {
+          "text": "My service was interrupted for 5 days. I would like a refund based on the time that the service was unavailable."
+        },
+        {
+          "text": "Refund my payment"
+        },
+        {
+          "text": "Where can I get refunds?"
+        },
+        {
+          "text": "Who do I have to speak to get a refund on one of my payments?"
+        }
+      ],
+      "description": "Request a refund for a payment."
+    },
+    {
+      "intent": "eCommerce_Statements",
+      "examples": [
+        {
+          "text": "Can I check my bill?"
+        },
+        {
+          "text": "Can I get another copy of my bill?"
+        },
+        {
+          "text": "Can I request credit card statement right from this chat window?"
+        },
+        {
+          "text": "Could you please send a print out of my late statement?"
+        },
+        {
+          "text": "Help me find my bill"
+        },
+        {
+          "text": "How can I save statements of credit card?"
+        },
+        {
+          "text": "How do I get a previous month's bill?"
+        },
+        {
+          "text": "How do I view my e-bill?"
+        },
+        {
+          "text": "I need to know more about my paper statements that I receive at home"
+        },
+        {
+          "text": "I seem to have misplaced my most recent billing statement and would appreciate if you sent me a replacement one."
+        },
+        {
+          "text": "Is there any sort of extra fee for paper invoices?"
+        },
+        {
+          "text": "I wanna see my bill"
+        },
+        {
+          "text": "I want a copy of the bill from last month"
+        },
+        {
+          "text": "I want a physical copy of credit card history"
+        },
+        {
+          "text": "I want to request a credit card statement"
+        },
+        {
+          "text": "My bank statement shows an unexpected payment to you so I would like a copy of my latest billing statement."
+        },
+        {
+          "text": "Show my bill"
+        },
+        {
+          "text": "What are my bills details?"
+        },
+        {
+          "text": "What are the steps for checking credit card statement for particular duration?"
+        },
+        {
+          "text": "What was my last bill?"
+        }
+      ],
+      "description": "Request a billing statement."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "call the manager"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "get me a person"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to speak with a robot"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I dont want to talk to a computer"
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to speak to a human"
+        },
+        {
+          "text": "I want to speak to a person"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I want to talk to the manager"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "representative"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "talk to a human"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "Time to go"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "hiya"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "yo"
+        },
+        {
+          "text": "You there"
+        }
+      ],
+      "description": "Greetings"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I'm bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "Goodbye",
+      "examples": [
+        {
+          "text": "arrivederci"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "see ya"
+        },
+        {
+          "text": "so long"
+        }
+      ],
+      "description": "Good byes"
+    },
+    {
+      "intent": "Help",
+      "examples": [
+        {
+          "text": "can you assist me"
+        },
+        {
+          "text": "can you help"
+        },
+        {
+          "text": "help"
+        },
+        {
+          "text": "help me"
+        },
+        {
+          "text": "help me decide"
+        },
+        {
+          "text": "i need assistance"
+        },
+        {
+          "text": "what can i do"
+        },
+        {
+          "text": "what can i say"
+        }
+      ],
+      "description": "Ask for help"
+    },
+    {
+      "intent": "Orders",
+      "examples": [
+        {
+          "text": "anything to eat?"
+        },
+        {
+          "text": "cake"
+        },
+        {
+          "text": "chocolate"
+        },
+        {
+          "text": "coffe"
+        },
+        {
+          "text": "coffe please"
+        },
+        {
+          "text": "do you have an Arabic coffee?"
+        },
+        {
+          "text": "give me coffe"
+        },
+        {
+          "text": "I need water please"
+        },
+        {
+          "text": "i want coffe"
+        },
+        {
+          "text": "I want to drink tea"
+        },
+        {
+          "text": "pancake"
+        },
+        {
+          "text": "tea"
+        },
+        {
+          "text": "tea please"
+        },
+        {
+          "text": "water"
+        },
+        {
+          "text": "what do you have to eat or drink?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "i appreciate it"
+        },
+        {
+          "text": "many thanks"
+        },
+        {
+          "text": "much appreciated"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thank you very much"
+        },
+        {
+          "text": "that's nice of you"
+        },
+        {
+          "text": "thx"
+        }
+      ],
+      "description": "Thanks"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "direction",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "backward",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "forward",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "left",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "right",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "stop",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "holiday",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "christmas",
+          "synonyms": [
+            "christmas day",
+            "x man day",
+            "x mas",
+            "x-mas",
+            "xmas",
+            "x-mas day",
+            "xmas day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "christmas eve",
+          "synonyms": [
+            "x mas eve",
+            "x-mas eve",
+            "xmas eve"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "halloween",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "independence day",
+          "synonyms": [
+            "7/4",
+            "fourth of july",
+            "july 4",
+            "july 4th",
+            "july fourth"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "labor day",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "memorial day",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "new years",
+          "synonyms": [
+            "1/1",
+            "jan 1",
+            "jan 1st",
+            "jan first",
+            "january 1",
+            "january 1st",
+            "january first",
+            "new year",
+            "new year day",
+            "new years day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "new years eve",
+          "synonyms": [
+            "12-31",
+            "12/31",
+            "dec 31",
+            "dec 31st",
+            "new year's eve"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "thanksgiving",
+          "synonyms": [
+            "turkey day"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "valentine's day",
+          "synonyms": [
+            "valentine day",
+            "valentines day"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "landmark",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "empire state building",
+          "synonyms": [
+            "empire state",
+            "emprire state"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "grand central",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "times square",
+          "synonyms": [
+            "time sqaure",
+            "time square",
+            "times sqaure"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "phone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "US Phone pattern",
+          "patterns": [
+            "(\\d{3})-(\\d{3})-(\\d{4})"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "reply",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "definitely not",
+            "don't think so",
+            "dont think so",
+            "i think not",
+            "nope",
+            "not at this time",
+            "not now"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "definitely",
+            "go for it",
+            "let's do it",
+            "ok",
+            "please",
+            "sure",
+            "why not",
+            "yeah",
+            "yep",
+            "yes",
+            "you bet",
+            "you betcha"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "specialist",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Barbara",
+          "synonyms": [
+            "barbra"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Brenda",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Derrik",
+          "synonyms": [
+            "derek",
+            "derik",
+            "derrick",
+            "derrik"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Maria",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nicholas",
+          "synonyms": [
+            "nick"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Robert",
+          "synonyms": [
+            "bob"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "zip_code",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "US Zip",
+          "patterns": [
+            "(\\b|\\s)\\d{5}(\\b|\\s)"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Where are you located?",
+      "output": {},
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Customer_Care_Store_Location",
+      "digress_in": "does_not_return",
+      "dialog_node": "Directions",
+      "digress_out": "allow_all",
+      "previous_sibling": "Hours of Operation"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Let me confirm: You want an appointment for <? $date.reformatDateTime(\"EEEEE\") ?> at <? $time.reformatDateTime(\"h a\") ?>. Is this correct?"
+      },
+      "parent": "slot_8_1509132875735",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_10_1509132875735"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_102_1498132501942",
+      "context": {
+        "date": "@sys-date"
+      },
+      "metadata": {},
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_103_1498132501942",
+      "previous_sibling": "handler_104_1498132501942"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What day would you like to come in?"
+      },
+      "parent": "slot_102_1498132501942",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_104_1498132501942"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_105_1498132552870",
+      "context": {
+        "time": "@sys-time"
+      },
+      "metadata": {},
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_106_1498132552870",
+      "previous_sibling": "handler_107_1498132552870"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "What time on <? $date.reformatDateTime(\"EEEEE\") ?> do you want to come in?"
+      },
+      "parent": "slot_105_1498132552870",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_107_1498132552870"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "We only accept appointments between 11am and 5pm"
+          ]
+        }
+      },
+      "parent": "slot_105_1498132552870",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "$time.after('17:30:30') || $time.before('10:59:59')",
+      "event_name": "filled",
+      "dialog_node": "handler_1_1509694458589",
+      "previous_sibling": "handler_106_1498132552870"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1522596437268",
+      "context": {
+        "specialist": "@specialist"
+      },
+      "metadata": {},
+      "conditions": "@specialist",
+      "event_name": "input",
+      "dialog_node": "handler_13_1522596437268",
+      "previous_sibling": "handler_14_1522596437268"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Perfect!"
+          ]
+        }
+      },
+      "parent": "slot_8_1509132875735",
+      "metadata": {},
+      "conditions": "@reply:yes",
+      "event_name": "filled",
+      "dialog_node": "handler_14_1509133469904",
+      "previous_sibling": "handler_9_1509132875735"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_12_1522596437268",
+      "event_name": "focus",
+      "dialog_node": "handler_14_1522596437268"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "We'll do our best to book you with @specialist"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_12_1522596437268",
+      "event_name": "filled",
+      "dialog_node": "handler_15_1522596463593",
+      "previous_sibling": "handler_13_1522596437268"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "OK. Canceling your request..."
+          ]
+        }
+      },
+      "parent": "Reservation using slots",
+      "context": {
+        "date": null,
+        "time": null,
+        "phone": null,
+        "confirm": null,
+        "specialist": null,
+        "user_cancelled": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#Cancel",
+      "event_name": "generic",
+      "dialog_node": "handler_16_1509133697261",
+      "previous_sibling": "handler_3_1501275087289"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry... let's try again"
+          ]
+        }
+      },
+      "parent": "slot_8_1509132875735",
+      "context": {
+        "date": null,
+        "time": null,
+        "confirm": null
+      },
+      "metadata": {},
+      "conditions": "@reply:no",
+      "event_name": "filled",
+      "dialog_node": "handler_17_1509135162089",
+      "previous_sibling": "handler_14_1509133469904"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Thanks"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_22_1522444583114",
+      "context": {},
+      "metadata": {},
+      "conditions": "true",
+      "event_name": "filled",
+      "dialog_node": "handler_22_1522598191131",
+      "previous_sibling": "handler_23_1522444583114"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_22_1522444583114",
+      "context": {
+        "phone": "@phone"
+      },
+      "metadata": {},
+      "conditions": "@phone",
+      "event_name": "input",
+      "dialog_node": "handler_23_1522444583114",
+      "previous_sibling": "handler_24_1522444583114"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "I'll just need a phone to hold your reservation"
+      },
+      "parent": "slot_22_1522444583114",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_24_1522444583114"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "I see you need help making an appointment. Let me transfer you to an agent..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Reservation using slots",
+      "context": {
+        "date": null,
+        "time": null,
+        "phone": null,
+        "confirm": null,
+        "specialist": null,
+        "user_needs_help": true
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "#Help",
+      "event_name": "generic",
+      "dialog_node": "handler_3_1501275087289"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Looks like you're trying to make a reservation in the past. Try again."
+          ]
+        }
+      },
+      "parent": "slot_102_1498132501942",
+      "metadata": {},
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "$date.before(now())",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1509695999145",
+      "previous_sibling": "handler_103_1498132501942"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "Reservation using slots",
+      "disabled": true,
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_7_1509696539866",
+      "previous_sibling": "handler_16_1509133697261"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1509132875735",
+      "context": {
+        "confirm": "@reply && slot_in_focus"
+      },
+      "metadata": {},
+      "conditions": "@reply && slot_in_focus",
+      "event_name": "input",
+      "dialog_node": "handler_9_1509132875735",
+      "previous_sibling": "handler_10_1509132875735"
+    },
+    {
+      "type": "standard",
+      "title": "What are your hours?",
+      "output": {},
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1522439390442"
+      },
+      "conditions": "#Customer_Care_Store_Hours",
+      "digress_in": "does_not_return",
+      "dialog_node": "Hours of Operation",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1626555490189"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Let me know how else I can help"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Reservation using slots",
+      "context": {},
+      "metadata": {},
+      "conditions": "$user_cancelled",
+      "dialog_node": "node_10_1509697567474",
+      "previous_sibling": "node_25_1522598839584"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good afternoon",
+            "Hi there. It's a beautiful afternoon",
+            "Good afternoon. How can I help?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('12:00:00') && now().before('16:59:59')",
+      "dialog_node": "node_1_1495022305143",
+      "previous_sibling": "node_16_1488295517679"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We are open on <? @sys-date.reformatDateTime(\"EEEEE\") ?> from 10am until 8pm"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Hours of Operation",
+      "context": {},
+      "metadata": {},
+      "conditions": "@sys-date.reformatDateTime(\"EEEEE\") == \"Monday\" || @sys-date.reformatDateTime(\"EEEEE\") == \"Tuesday\" || @sys-date.reformatDateTime(\"EEEEE\") == \"Wednesday\" || @sys-date.reformatDateTime(\"EEEEE\") == \"Thursday\" || @sys-date.reformatDateTime(\"EEEEE\") == \"Friday\"",
+      "dialog_node": "node_1_1522387330204",
+      "previous_sibling": "node_4_1482425833988"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "So long",
+            "See ya",
+            "Good bye"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Goodbye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_12_1468329566917",
+      "previous_sibling": "node_13_1502484041694"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_13_1502484041694",
+      "previous_sibling": "Reservation using slots"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good evening",
+            "Hi. Good evening",
+            "Hello. How can I help this evening?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('17:00:00')",
+      "dialog_node": "node_15_1488295465298",
+      "previous_sibling": "node_1_1495022305143"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello. Good morning",
+            "It's a beautiful morning. Hello",
+            "Hi there. How can I help you this morning?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "conditions": "now().after('04:00:00') && now().before('11:59:59')",
+      "dialog_node": "node_16_1488295517679"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "OK. Transferring... [Use IBM Cloud Functions to connect to backend systems]"
+          ]
+        }
+      },
+      "parent": "node_22_1467833484410",
+      "metadata": {},
+      "conditions": "@reply:yes",
+      "dialog_node": "node_19_1468350024009"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "OK. Let me know how I can help"
+      },
+      "parent": "node_22_1467833484410",
+      "metadata": {},
+      "conditions": "@reply:no",
+      "dialog_node": "node_21_1468350173406",
+      "previous_sibling": "node_19_1468350024009"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I didn't understand can you try again"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1467831978407",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1570050459690",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "You're welcome. Just let me know if you need anything else",
+            "No problem. Just let me know if you need anything else",
+            "My pleasure. Just let me know if you need anything else"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#Thanks",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1468243505617",
+      "previous_sibling": "node_12_1468329566917"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our hours on <? @sys-date.reformatDateTime(\"EEEEE\") ?> are 11am to 6pm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Hours of Operation",
+      "context": {},
+      "metadata": {},
+      "conditions": "@sys-date.reformatDateTime(\"EEEEE\") == \"Saturday\" || @sys-date.reformatDateTime(\"EEEEE\") == \"Sunday\"",
+      "dialog_node": "node_2_1482424204936",
+      "previous_sibling": "node_5_1482426503106"
+    },
+    {
+      "type": "standard",
+      "title": "Please transfer me to an agent",
+      "output": {
+        "text": {
+          "values": [
+            "Would you like me to transfer you to a representative?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Connect_to_Agent",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_22_1467833484410",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "node_2_1468243505617"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "[Use IBM Cloud Functions to connect to to backend systems]"
+          ]
+        }
+      },
+      "parent": "Reservation using slots",
+      "metadata": {},
+      "conditions": "$user_needs_help",
+      "dialog_node": "node_25_1522598839584",
+      "previous_sibling": "handler_7_1509696539866"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Hello",
+            "Hi there",
+            "Hi. How can I help"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1502484041694",
+      "metadata": {},
+      "dialog_node": "node_28_1522448362216",
+      "previous_sibling": "node_15_1488295465298"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Let me check availability...  [Use IBM Cloud Functions to connect to backend systems]"
+          ]
+        }
+      },
+      "parent": "Reservation using slots",
+      "context": {},
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_3_1519173961259",
+      "previous_sibling": "node_10_1509697567474"
+    },
+    {
+      "type": "standard",
+      "title": "Provide location",
+      "output": {
+        "text": {
+          "values": [
+            "We're located by Union Square on the corner of 13th and Broadway"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Directions",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_3_1522439390442"
+    },
+    {
+      "type": "standard",
+      "title": "Oreders",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "going to be ready for you!"
+              },
+              {
+                "text": "one minute and it'll be ready!"
+              },
+              {
+                "text": "Yes. we have that!"
+              },
+              {
+                "text": "Here!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Orders",
+      "dialog_node": "node_3_1626555490189",
+      "previous_sibling": "Opening"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We are closed on @holiday"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Hours of Operation",
+      "context": {},
+      "metadata": {},
+      "conditions": "@holiday:christmas || @holiday:thanksgiving || @holiday:(new years)",
+      "dialog_node": "node_4_1482425833988"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "To get to our business from Grand Central, take the 4,5 or 6 train downtown to Union Square."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Directions",
+      "metadata": {},
+      "conditions": "@landmark:(grand central)",
+      "dialog_node": "node_4_1522439442155",
+      "previous_sibling": "node_8_1482459217052"
+    },
+    {
+      "type": "standard",
+      "title": "What can I do",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I can tell you about our store locations and opening hours, or help you set up an appointment."
+              },
+              {
+                "text": "You could also ask me to connect you to an agent."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Help",
+      "dialog_node": "node_4_1570050459690",
+      "previous_sibling": "node_22_1467833484410"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We are open on @holiday regular hours"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Hours of Operation",
+      "context": {},
+      "metadata": {},
+      "conditions": "@holiday",
+      "dialog_node": "node_5_1482426503106",
+      "previous_sibling": "node_1_1522387330204"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our hours are Monday to Friday 10am to 8pm and Friday and Saturday 11am to 6pm."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Hours of Operation",
+      "context": {},
+      "metadata": {},
+      "conditions": " true",
+      "dialog_node": "node_6_1482426521282",
+      "previous_sibling": "node_2_1482424204936"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "To get to our business from the Empire State Building, walk to Herald Square and take the N train to Union Square"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Directions",
+      "metadata": {},
+      "conditions": "@landmark:(empire state building)",
+      "dialog_node": "node_7_1482459200886",
+      "previous_sibling": "node_3_1522439390442"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "To get to our business from Times Square, take the N train downtown to Union Square"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Directions",
+      "metadata": {},
+      "conditions": "@landmark:(times square)",
+      "dialog_node": "node_8_1482459217052",
+      "previous_sibling": "node_7_1482459200886"
+    },
+    {
+      "type": "standard",
+      "title": "Opening",
+      "output": {
+        "text": {
+          "values": [
+            "Hello, I'm Helper! as my name says, I'm here to help you, so feel free to ask me!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "no_reservation": true
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Opening"
+    },
+    {
+      "type": "frame",
+      "title": "I want to make an appointment",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Customer_Care_Appointments",
+      "digress_in": "does_not_return",
+      "dialog_node": "Reservation using slots",
+      "digress_out": "allow_all",
+      "previous_sibling": "Directions",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Reservation using slots",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$date",
+      "dialog_node": "slot_102_1498132501942",
+      "previous_sibling": "node_3_1519173961259"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Reservation using slots",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "variable": "$time",
+      "dialog_node": "slot_105_1498132552870",
+      "previous_sibling": "slot_102_1498132501942"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Reservation using slots",
+      "metadata": {},
+      "variable": "$specialist",
+      "dialog_node": "slot_12_1522596437268",
+      "previous_sibling": "slot_105_1498132552870"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Reservation using slots",
+      "metadata": {
+        "_customization": {}
+      },
+      "variable": "$phone",
+      "dialog_node": "slot_22_1522444583114",
+      "previous_sibling": "slot_8_1509132875735"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "Reservation using slots",
+      "metadata": {},
+      "variable": "$confirm",
+      "dialog_node": "slot_8_1509132875735",
+      "previous_sibling": "slot_12_1522596437268"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Customer Care Sample Skill",
+  "language": "en",
+  "description": "Sample simple customer service skill to get you started."
+}
